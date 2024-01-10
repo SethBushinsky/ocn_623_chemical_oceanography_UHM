@@ -1,0 +1,19 @@
+name: ocn_623
+channels:
+ - conda-forge
+ - defaults
+dependencies:
+ - numpy
+ - pandas
+ - xarray=2022.3.*
+ - netCDF4
+ - matplotlib
+ - jupyter
+ - python=3.9.*
+ - scipy
+ - gsw=3.4.*
+ - cartopy
+ - pip
+ - pip:
+   - PyCO2SYS==1.8.*
+   - matlabengine==9.13.9 # this is the version for matlab R2022b. Need to change for different installed Matlab versions
