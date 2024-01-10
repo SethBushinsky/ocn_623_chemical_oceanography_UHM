@@ -1,0 +1,23 @@
+### Goal
+The goal of this repository is to give OCN 623 students examples of basic code in case they have little or no coding experience.
+I may also start adding code for some of the figures I make for class lectures, we'll see. 
+
+#### Getting started with Python:
+You might get better guidance googling "how to get started with python" but there are a million avenues out there, so here's one approach:
+
+- Download anaconda or miniconda as a package manager: https://conda.io/projects/conda/en/latest/user-guide/install/index.html
+- Create a virtual environment to save new packages into. Using a virtual environment avoids messing up your computer by installing a million packages into your base environment. If you screw up a virtual environment, just make a new one. I make a different one for most projects.
+  - I've created a .yml file for this class that you can use to install the packages I use for the code examples shown here. You can create a new virtual environment from this .yml file by calling:
+    - "conda env create -f ocn_623.yml"
+- Activate your new virtual environment:
+  - "conda activate ocn_623
+- You can now start coding in your program of choice. Many people use jupyter notebook:
+  - "jupyter notebook"
+- I like VS code: https://code.visualstudio.com/
+
+#### Getting started with Matlab:
+- UH Manoa has a Matlab site license: https://www.hawaii.edu/sitelic/matlab/matlab.html
+- Once you have it installed, you'll need some other toolboxes, like seawater properties, etc. I'll add detail later
+
+#### R:
+I know many people, especially biological oceanographers, use R. I haven't used R and I think the department probably has better resources for getting you started. However, if there is the desire/need, let me know and I'll figure out the basics. 
